@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="buttons-wrapper">
+                <div class="button-wrapper">
+                    <button class="open-popup" data-name="Toyota Yaris 2023">Toyota Yaris 2023</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="open-popup" data-name="Mitsubishi Xpander 2023">Mitsubishi Xpander 2023</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <aside class="overlay"></aside>
+    <aside class="popup hidden">
+        <div class="popup__wrapper">
+            <div class="popup__close">
+                <img src="./img/icons8-cross-24.svg" alt="" id="close-modal">
+            </div>
+            <div class="popup__content-wrapper">
+                <div class="popup__header">
+                    <p>Забронировать авто <span class="auto-name"></span></p>
+                </div>
+                <div class="popup__offer">
+                    <p>Для бронирования автомобиля свяжитесь с нами удобным вам способом:</p>
+                </div>
+                <div class="popup__links">
+                    <button class="whats-app__link button-link">
+                        <img src="./img/icons8-whatsapp (1).svg" alt="" width="24">
+                        <p>Whatsapp</p>
+                    </button>
+                    <button class="telegram__link button-link">
+                        <img src="./img/icons8-whatsapp (1).svg" alt="" width="24">
+                        <p>Telegram</p>
+                    </button>
+                </div>
+                <div class="popup__phone">
+                    <a href="tel:+66 00 00 00 000">+66 00 00 00 000</a>
+                </div>
+                <div class="popup__privacy">
+                    <p>Нажимая на кнопку "Whatsapp" или "Telegram" вы тем самым выражаете согласие на обработку персональных данных в соответствии с политикой конфиденциальности</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <script src="./script.js"></script>
+</body>
+</html>
