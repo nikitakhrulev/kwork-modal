@@ -55,6 +55,8 @@ main {
     font-size: 19px;
 
     margin-bottom: 45px;
+
+    line-height: 24px;
 }
 .popup__offer {
     font-size: 13px;
@@ -62,6 +64,8 @@ main {
     margin-bottom: 35px;
 
     max-width: 272px;
+
+    line-height: 20px;
 }
 .popup__close {
     text-align: end;
@@ -154,7 +158,6 @@ main {
     }
     .popup__offer {
         font-size: 11px;
-        line-height: 11px;
 
         margin-bottom: 18px;
     }
@@ -169,5 +172,8 @@ main {
         gap: 20px;
 
         margin-bottom: 30px;
+    }
+    .popup__privacy {
+        font-size: 11px;
     }
 }
